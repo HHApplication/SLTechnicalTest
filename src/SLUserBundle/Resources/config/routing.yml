@@ -1,0 +1,7 @@
+sl_user_homepage:
+    path:     /
+    defaults: { _controller: SLUserBundle:Security:login }
+
+sl_post_comment:
+    path:     /comment
+    defaults: { _controller: GitHubCommentBundle:Default:index }
